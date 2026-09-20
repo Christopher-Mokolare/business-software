@@ -7,8 +7,8 @@ import { RouterLink } from '@angular/router';
   template: `
 <section class="hero">
   <div class="eyebrow">SOFTWARE • AUTOMATION • DIGITAL PLATFORMS</div>
-  <h1>Make the <em>work flow.</em></h1>
-  <p class="hero-copy">Software designed around the way your business actually operates — turning manual processes into clearer, more connected working systems.</p>
+  <h1>Software built around <em>how real workflows actually work.</em></h1>
+  <p class="hero-copy">Explore practical software concepts and working projects designed to replace manual processes, connect disconnected tools and improve digital experiences.</p>
   <div class="actions"><a class="button primary" routerLink="/contact">Discuss an idea</a><a class="button ghost" routerLink="/work">Explore the work →</a></div>
   <div class="proof"><span>Web & mobile</span><span>Payments & integrations</span><span>Cloud-ready</span><span>Real operational workflows</span></div>
 </section>
