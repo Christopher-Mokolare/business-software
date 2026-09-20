@@ -1,0 +1,10 @@
+services:
+  - type: web
+    runtime: static
+    name: mokolare-business-software
+    buildCommand: npm ci && npm run build:prod
+    staticPublishPath: dist/mokolare-systems/browser
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
