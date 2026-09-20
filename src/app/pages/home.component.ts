@@ -6,34 +6,34 @@ import { RouterLink } from '@angular/router';
   imports: [RouterLink],
   template: `
 <section class="hero">
-  <div class="eyebrow">CUSTOM SOFTWARE • AUTOMATION • DIGITAL PLATFORMS</div>
-  <h1>Software built around <em>how your business actually works.</em></h1>
-  <p class="hero-copy">We design and build secure business systems that replace manual processes, connect disconnected tools and give customers a better digital experience.</p>
-  <div class="actions"><a class="button primary" routerLink="/contact">Tell us what you need</a><a class="button ghost" routerLink="/work">See what we've built →</a></div>
-  <div class="proof"><span>Web & mobile</span><span>Payments & integrations</span><span>Cloud-ready</span><span>Built for real workflows</span></div>
+  <div class="eyebrow">SOFTWARE • AUTOMATION • DIGITAL PLATFORMS</div>
+  <h1>Software built around <em>how real workflows actually work.</em></h1>
+  <p class="hero-copy">Explore practical software concepts and working projects designed to replace manual processes, connect disconnected tools and improve digital experiences.</p>
+  <div class="actions"><a class="button primary" routerLink="/contact">Discuss an idea</a><a class="button ghost" routerLink="/work">Explore the work →</a></div>
+  <div class="proof"><span>Web & mobile</span><span>Payments & integrations</span><span>Cloud-ready</span><span>Real operational workflows</span></div>
 </section>
-<section class="statement"><p class="section-kicker">THE PROBLEM</p><h2>When spreadsheets, WhatsApp, email and manual admin start running the business, it's time for a system.</h2></section>
+<section class="statement"><p class="section-kicker">THE PROBLEM</p><h2>When spreadsheets, WhatsApp, email and manual admin start running the workflow, it's time to consider a system.</h2></section>
 <section class="section">
-  <div class="section-head"><div><p class="section-kicker">WHAT WE BUILD</p><h2>Practical software for real operations.</h2></div><p>Start with the business problem. We turn the workflow into software your team and customers can actually use.</p></div>
+  <div class="section-head"><div><p class="section-kicker">WHAT WE EXPLORE</p><h2>Practical software for real operations.</h2></div><p>Start with the business problem. Explore how a workflow can become a clearer, more controlled digital system.</p></div>
   <div class="cards">
     <article><span>01</span><h3>Business systems</h3><p>Internal platforms for users, roles, records, approvals, reporting and day-to-day operations.</p></article>
     <article><span>02</span><h3>Customer portals</h3><p>Secure experiences where customers can register, submit requests, track progress and manage information.</p></article>
     <article><span>03</span><h3>Workflow automation</h3><p>Turn repetitive handoffs, notifications, approvals and reconciliation into controlled digital workflows.</p></article>
     <article><span>04</span><h3>Payments & integrations</h3><p>Connect payment providers, identity services, APIs, databases and third-party platforms.</p></article>
-    <article><span>05</span><h3>Mobile applications</h3><p>Extend your business beyond the office with focused mobile experiences for customers and staff.</p></article>
+    <article><span>05</span><h3>Mobile applications</h3><p>Extend a workflow beyond the office with focused mobile experiences for customers and operational teams.</p></article>
     <article><span>06</span><h3>Modernisation</h3><p>Replace fragile legacy systems or disconnected processes without throwing away what already works.</p></article>
   </div>
 </section>
 <section class="section dark">
-  <div class="section-head"><div><p class="section-kicker">SELECTED WORK</p><h2>Built for transactions, operations and people.</h2></div><p>Production-oriented systems across fintech, marketplaces and operational software.</p></div>
+  <div class="section-head"><div><p class="section-kicker">SELECTED WORK</p><h2>Built around transactions, operations and people.</h2></div><p>Projects exploring fintech, marketplaces and operational software.</p></div>
   <div class="projects">
-    <article class="project featured"><div class="project-top"><span>FINTECH / MARKETPLACE</span><span>01</span></div><h3>SecureX</h3><p>A peer-to-peer transaction platform built around escrow workflows, KYC, payments, auditability and controlled fund release.</p><div class="tags"><b>ASP.NET Core</b><b>Angular</b><b>PostgreSQL</b><b>AWS</b></div></article>
-    <article class="project"><div class="project-top"><span>MARKETPLACE / OPERATIONS</span><span>02</span></div><h3>DoForYou</h3><p>A task marketplace with role-based access, payments, task workflows, notifications, disputes and mobile experiences.</p><div class="tags"><b>.NET</b><b>Angular</b><b>React Native</b></div></article>
-    <article class="project"><div class="project-top"><span>TRANSPORT / OPERATIONS</span><span>03</span></div><h3>TaxiConnect</h3><p>Operational tooling connecting routes, operators, vehicles, drivers, trips, passenger demand and incidents.</p><div class="tags"><b>Firebase</b><b>JavaScript</b><b>Operations</b></div></article>
+    <article class="project featured"><div class="project-top"><span>FINTECH / MARKETPLACE</span><span>01</span></div><h3>SecureX</h3><p>A peer-to-peer transaction platform exploring escrow workflows, KYC, payments, auditability and controlled fund release.</p></article>
+    <article class="project"><div class="project-top"><span>MARKETPLACE / OPERATIONS</span><span>02</span></div><h3>DoForYou</h3><p>A task marketplace exploring role-based access, payments, task workflows, notifications, disputes and mobile experiences.</p></article>
+    <article class="project"><div class="project-top"><span>TRANSPORT / OPERATIONS</span><span>03</span></div><h3>TaxiConnect</h3><p>Operational tooling exploring routes, operators, vehicles, drivers, trips, passenger demand and incidents.</p></article>
   </div>
 </section>
-<section class="section"><p class="section-kicker">HOW WE WORK</p><h2>From business problem to working software.</h2><div class="steps"><div><strong>01</strong><h3>Understand</h3><p>Map the current process, users, pain points and business rules.</p></div><div><strong>02</strong><h3>Design</h3><p>Define the workflows, data, screens and technical foundation.</p></div><div><strong>03</strong><h3>Build</h3><p>Deliver the highest-value capabilities in manageable phases.</p></div><div><strong>04</strong><h3>Operate</h3><p>Deploy, monitor, improve and support the system as the business grows.</p></div></div></section>
-<section class="cta"><div><p class="section-kicker">READY WHEN YOU ARE</p><h2>Tell us what your business is trying to improve.</h2><p>You don't need a technical specification. Explain the process, the problem or the outcome you want. We'll help shape the solution.</p></div><a class="button light" routerLink="/contact">Start a conversation →</a></section>
+<section class="section"><p class="section-kicker">HOW IT WORKS</p><h2>From business problem to working software.</h2><div class="steps"><div><strong>01</strong><h3>Understand</h3><p>Map the current process, users, pain points and business rules.</p></div><div><strong>02</strong><h3>Design</h3><p>Define the workflows, data, screens and technical foundation.</p></div><div><strong>03</strong><h3>Build</h3><p>Deliver the highest-value capabilities in manageable phases.</p></div><div><strong>04</strong><h3>Operate</h3><p>Deploy, monitor, improve and support the system as it evolves.</p></div></div></section>
+<section class="cta"><div><p class="section-kicker">START WITH THE PROBLEM</p><h2>Describe the workflow you want to improve.</h2><p>You don't need a technical specification. Explain the process, the problem or the outcome you want to explore.</p></div><a class="button light" routerLink="/contact">Start a conversation →</a></section>
 `
 })
 export class HomeComponent {}
