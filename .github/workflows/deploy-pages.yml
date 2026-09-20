@@ -32,8 +32,10 @@ jobs:
       - name: Build static site
         run: npm run build:pages
 
-      - name: Disable Jekyll processing
-        run: touch dist/mokolare-systems/browser/.nojekyll
+      - name: Configure SPA routing for GitHub Pages
+        run: |
+          cp dist/mokolare-systems/browser/index.html dist/mokolare-systems/browser/404.html
+          touch dist/mokolare-systems/browser/.nojekyll
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
