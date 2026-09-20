@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://christopher-mokolare.github.io/business-software/sitemap.xml
