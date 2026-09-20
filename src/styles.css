@@ -12,7 +12,7 @@ html[data-theme="dark"]{--ink:#f5f7f3;--muted:#b9c0ca;--line:#303844;--paper:#0d
 html[data-theme="light"]{color-scheme:light}
 html[data-theme="dark"] body{background:var(--paper);color:var(--ink)}
 html[data-theme="dark"] .site-header{background:rgba(13,17,23,.94);border-color:#303844;box-shadow:0 8px 30px rgba(0,0,0,.16)}
-html[data-theme="dark"] .brand-logo{filter:invert(1) hue-rotate(180deg) saturate(.85)}
+html[data-theme="dark"] .brand-logo-light{display:none}html[data-theme="dark"] .brand-logo-dark{display:block}html[data-theme="light"] .brand-logo-dark{display:none}
 html[data-theme="dark"] .nav-cta{border-color:#66717f}
 html[data-theme="dark"] .menu-toggle span{background:var(--ink)}
 html[data-theme="dark"] .hero h1 em{color:#9da7b4}
