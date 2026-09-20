@@ -1,11 +1,12 @@
-<svg width="520" height="160" viewBox="0 0 520 160" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <title>Workshape</title>
-  <g transform="translate(20 24)">
-    <path d="M18 18 H54 L72 36 V72 H36 L18 54 Z" fill="#F5F7F3"/>
-    <path d="M54 18 H78 L96 36 V60 H72" fill="#C7F35A"/>
-    <path d="M36 36H60V60H42" stroke="#C7F35A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="36" cy="36" r="5" fill="#C7F35A"/>
-    <circle cx="60" cy="60" r="5" fill="#C7F35A"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" width="680" height="260" role="img" aria-labelledby="title desc">
+  <title id="title">Workshape</title>
+  <desc id="desc">A bending flow line passing through three connected nodes representing connected workflows.</desc>
+  <g transform="translate(60,25)">
+    <path d="M0 55 Q30 0 60 30 Q90 60 110 10" fill="none" stroke="#6FA8FF" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="0" cy="55" r="9" fill="#94B4E8"/>
+    <circle cx="60" cy="30" r="9" fill="#6FA8FF"/>
+    <circle cx="110" cy="10" r="9" fill="#2F6FED"/>
   </g>
-  <text x="145" y="94" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-size="56" font-weight="700" letter-spacing="-2.5" fill="#F5F7F3">Workshape</text>
+  <text x="60" y="165" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="40" font-weight="600" letter-spacing="1" fill="#F5F7F3">WORKSHAPE</text>
+  <text x="60" y="195" font-family="'Segoe UI', Arial, sans-serif" font-size="14" letter-spacing="2" fill="#A8B4C7">SOFTWARE &#8226; AUTOMATION &#8226; DIGITAL PLATFORMS</text>
 </svg>
