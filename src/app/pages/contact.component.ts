@@ -13,7 +13,7 @@ const CONTACT_API_URL = 'https://cm-portal-contact.onrender.com/api/contact';
 <label>Contact email<input type="email" name="email" required placeholder="you@company.co.za"></label>
 <label>What would you like to improve?<textarea name="problem" required placeholder="Tell us what is currently manual, slow, disconnected or difficult."></textarea></label>
 <button class="button primary" type="submit" [disabled]="submitting">{{ submitting ? 'Sending…' : 'Send enquiry' }}</button>
-<p *ngIf="status" role="status">{{ status }}</p>
+<p [hidden]="!status" role="status">{{ status }}</p>
 </form>
 </section>
 `
