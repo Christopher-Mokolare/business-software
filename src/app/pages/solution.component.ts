@@ -1,5 +1,6 @@
 import {Component} from '@angular/core';
 import {RouterLink, ActivatedRoute} from '@angular/router';
+import {NgFor} from '@angular/common';
 
 type Solution={eyebrow:string;title:string;intro:string;problems:string[];capabilities:string[];example:string};
 
@@ -12,7 +13,7 @@ const solutions:Record<string,Solution>={
  'modernisation':{eyebrow:'06 • MODERNISATION',title:'Move fragile systems forward without losing what works.',intro:'Modernisation does not always mean starting again. The right approach can progressively replace fragile technology while preserving valuable business knowledge and workflows.',problems:['Legacy systems becoming difficult to maintain','Disconnected tools creating duplicate work','Old interfaces slowing users down','Critical processes depending on fragile technology'],capabilities:['System and workflow assessment','Incremental replacement','API and integration layers','Data migration and consolidation','Modern web interfaces and maintainable services'],example:'A legacy process can be modernised in stages: preserve the critical workflow, introduce a new interface or service, move data safely, then retire the fragile component when the replacement is ready.'}
 };
 
-@Component({standalone:true,imports:[RouterLink],template:`
+@Component({standalone:true,imports:[RouterLink,NgFor],template:`
 <section class="page-hero solution-hero"><p class="section-kicker">{{solution.eyebrow}}</p><h1>{{solution.title}}</h1><p>{{solution.intro}}</p></section>
 <section class="section solution-section"><div class="solution-grid"><div><p class="section-kicker">COMMON PROBLEMS</p><h2>Where this kind of software can help.</h2></div><ul class="solution-list"><li *ngFor="let item of solution.problems">{{item}}</li></ul></div></section>
 <section class="section solution-section"><div class="solution-grid"><div><p class="section-kicker">WHAT CAN BE BUILT</p><h2>Capabilities shaped around the workflow.</h2></div><ul class="solution-list"><li *ngFor="let item of solution.capabilities">{{item}}</li></ul></div></section>
