@@ -1,1 +1,46 @@
-{"$schema":"./node_modules/@angular/cli/lib/config/schema.json","version":1,"projects":{"mokolare-systems":{"projectType":"application","root":"","sourceRoot":"src","prefix":"ms","architect":{"build":{"builder":"@angular-devkit/build-angular:application","options":{"browser":"src/main.ts","index":"src/index.html","polyfills":["zone.js"],"tsConfig":"tsconfig.app.json","assets":[{"glob":"favicon.svg","input":"src","output":"/"},{"glob":"robots.txt","input":"src","output":"/"},{"glob":"sitemap.xml","input":"src","output":"/"},{"glob":"404.html","input":"src","output":"/"},{"glob":"assets/**","input":"src","output":"/assets"}],"styles":["src/styles.css"],"outputPath":"dist/mokolare-systems","outputMode":"static","prerender":true},"configurations":{"production":{"optimization":true,"outputHashing":"all"},"development":{"optimization":false,"sourceMap":true}},"defaultConfiguration":"production"},"serve":{"builder":"@angular-devkit/build-angular:dev-server","configurations":{"production":{"buildTarget":"mokolare-systems:build:production"},"development":{"buildTarget":"mokolare-systems:build:development"}},"defaultConfiguration":"development"}}}},"defaultProject":"mokolare-systems"}
+{
+  "$schema":"./node_modules/@angular/cli/lib/config/schema.json",
+  "version":1,
+  "projects":{
+    "mokolare-systems":{
+      "projectType":"application",
+      "root":"",
+      "sourceRoot":"src",
+      "prefix":"ms",
+      "architect":{
+        "build":{
+          "builder":"@angular-devkit/build-angular:application",
+          "options":{
+            "browser":"src/main.ts",
+            "index":"src/index.html",
+            "polyfills":["zone.js"],
+            "tsConfig":"tsconfig.app.json",
+            "assets":[
+              {"glob":"favicon.svg","input":"src","output":"/"},
+              {"glob":"robots.txt","input":"src","output":"/"},
+              {"glob":"sitemap.xml","input":"src","output":"/"},
+              {"glob":"404.html","input":"src","output":"/"},
+              {"glob":"assets/**","input":"src","output":"/assets"}
+            ],
+            "styles":["src/styles.css"],
+            "outputPath":"dist/mokolare-systems",
+            "outputMode":"static"
+          },
+          "configurations":{
+            "production":{"optimization":true,"outputHashing":"all"},
+            "development":{"optimization":false,"sourceMap":true}
+          },
+          "defaultConfiguration":"production"
+        },
+        "serve":{
+          "builder":"@angular-devkit/build-angular:dev-server",
+          "configurations":{
+            "production":{"buildTarget":"mokolare-systems:build:production"},
+            "development":{"buildTarget":"mokolare-systems:build:development"}
+          },
+          "defaultConfiguration":"development"
+        }
+      }
+    }
+  }
+}
