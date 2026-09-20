@@ -10,7 +10,7 @@ export class ThemeService {
   constructor() {
     if (!isPlatformBrowser(this.platformId)) return;
     const saved = localStorage.getItem('theme');
-    const value = saved === 'dark' || (!saved && matchMedia('(prefers-color-scheme: dark)').matches);
+    const value = saved === 'dark';
     this.dark.set(value);
     this.apply(value);
   }
