@@ -1,36 +1,78 @@
 # Mokolare Systems
 
-Business-facing website for a custom software and digital solutions practice.
+Business-facing software studio site for Christopher Mokolare.
 
-## Positioning
+## Purpose
 
-**Custom Software for Growing Businesses**
+This is the public-facing business site for selling custom software and automation services to growing businesses. It is intentionally business-first rather than a developer portfolio.
 
-We design and build secure software that helps businesses replace manual processes, connect their systems and serve their customers digitally.
+## Stack
 
-## Core services
+- Angular 20 standalone components
+- TypeScript
+- Responsive mobile-first CSS
+- Light/dark theme with system preference
+- Angular static prerendering (SSG)
+- GitHub Pages
+- GitHub Actions
 
-- Business management systems
-- Customer and staff portals
-- Workflow automation
-- Payment-enabled applications
-- API integrations
-- Mobile applications
-- Reporting and administration systems
-- Legacy system modernisation
+## Routes
 
-## Case studies
+- /
+- /services
+- /work
+- /process
+- /contact
 
-- SecureX — fintech / peer-to-peer transaction platform
-- DoForYou — task marketplace and operations platform
-- TaxiConnect — transport operations platform
+The public pages are prerendered at build time, so the site is delivered as static HTML while retaining Angular component architecture and client-side navigation.
 
-## Technology
+## Local development
 
-.NET / C# / ASP.NET Core / Angular / React Native / TypeScript / PostgreSQL / AWS / Docker / REST APIs
+```bash
+npm install
+npm start
+```
 
-## Direction
+Production build:
 
-The site is intentionally business-first. It sells outcomes and operational improvements rather than presenting the business as a generic freelance developer service.
+```bash
+npm run build:prod
+```
 
-Next iterations can add a proper contact API, CMS/content model, case-study detail pages, analytics, SEO/schema, custom domain and production deployment.
+GitHub Pages build:
+
+```bash
+npm run build:pages
+```
+
+## Deployment
+
+Pushes to `main` run the GitHub Actions workflow in `.github/workflows/deploy-pages.yml`.
+
+The first deployment requires GitHub Pages to be enabled for the repository with **Settings → Pages → Source: GitHub Actions**.
+
+Current project-site URL:
+
+`https://christopher-mokolare.github.io/business-software/`
+
+If a custom domain is introduced later, update the canonical URL, sitemap and the Pages build base path accordingly.
+
+## Production checklist
+
+- [x] Mobile-first responsive layout
+- [x] Light/dark mode
+- [x] Componentized Angular architecture
+- [x] Static prerendering
+- [x] Route titles and descriptions
+- [x] robots.txt
+- [x] sitemap.xml
+- [x] Accessibility skip link and navigation labels
+- [x] GitHub Actions CI
+- [x] GitHub Pages deployment workflow
+- [ ] Connect a real contact-form delivery endpoint
+- [ ] Add final social preview image
+- [ ] Add custom domain when the business domain is ready
+
+## Business positioning
+
+Mokolare Systems helps businesses replace spreadsheets, WhatsApp, email and manual administration with secure software systems, workflow automation, customer portals, payment integrations and operational platforms.
