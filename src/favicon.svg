@@ -1,9 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 100">
   <title>Workshape</title>
-  <rect width="64" height="64" rx="14" fill="#111214"/>
-  <path d="M13 13H36L48 25V48H25L13 36Z" fill="#111214" stroke="#C9FF3D" stroke-width="3"/>
-  <path d="M36 13H51L58 20V38H48" fill="#C9FF3D"/>
-  <path d="M25 25H42V42H30" stroke="#111214" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="25" cy="25" r="3" fill="#C9FF3D"/>
-  <circle cx="42" cy="42" r="3" fill="#C9FF3D"/>
+  <path d="M15 75 Q45 20 75 50 Q105 80 125 30" fill="none" stroke="#2F6FED" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="15" cy="75" r="11" fill="#0F2E5C"/>
+  <circle cx="75" cy="50" r="11" fill="#2F6FED"/>
+  <circle cx="125" cy="30" r="11" fill="#6FA8FF"/>
 </svg>
