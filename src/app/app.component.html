@@ -1,1 +1,24 @@
-<header class="site-header"><a routerLink="/" class="brand" aria-label="Mokolare Systems home"><span class="brand-mark">M</span><span>Mokolare Systems</span></a><button class="menu-toggle" type="button" (click)="menu.set(!menu())" [attr.aria-expanded]="menu()" aria-label="Toggle menu"><span></span><span></span></button><nav [class.open]="menu()"><a routerLink="/services" (click)="menu.set(false)">Services</a><a routerLink="/work" (click)="menu.set(false)">Work</a><a routerLink="/process" (click)="menu.set(false)">Process</a><a routerLink="/contact" class="nav-cta" (click)="menu.set(false)">Start a conversation</a></nav><button class="theme-toggle" type="button" (click)="theme.toggle()" [attr.aria-label]="theme.dark()?'Use light mode':'Use dark mode'">{{theme.dark()?'☀':'◐'}}</button></header><main><router-outlet /></main><footer><span>© 2026 Mokolare Systems</span><span>Custom software · Automation · Digital platforms</span><a routerLink="/contact">Start a conversation →</a></footer>
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header">
+  <a routerLink="/" class="brand" aria-label="Mokolare Systems home">
+    <span class="brand-mark">M</span><span>Mokolare Systems</span>
+  </a>
+  <button class="menu-toggle" type="button" (click)="menu.set(!menu())" [attr.aria-expanded]="menu()" aria-controls="site-navigation" aria-label="Toggle navigation">
+    <span></span><span></span>
+  </button>
+  <nav id="site-navigation" [class.open]="menu()" aria-label="Primary navigation">
+    <a routerLink="/services" routerLinkActive="active" (click)="menu.set(false)">Services</a>
+    <a routerLink="/work" routerLinkActive="active" (click)="menu.set(false)">Work</a>
+    <a routerLink="/process" routerLinkActive="active" (click)="menu.set(false)">Process</a>
+    <a routerLink="/contact" routerLinkActive="active" class="nav-cta" (click)="menu.set(false)">Start a conversation</a>
+  </nav>
+  <button class="theme-toggle" type="button" (click)="theme.toggle()" [attr.aria-label]="theme.dark()?'Use light mode':'Use dark mode'">
+    {{theme.dark()?'☀':'◐'}}
+  </button>
+</header>
+<main id="main-content" tabindex="-1"><router-outlet /></main>
+<footer>
+  <span>© 2026 Mokolare Systems</span>
+  <span>Custom software · Automation · Digital platforms</span>
+  <a routerLink="/contact">Start a conversation →</a>
+</footer>
