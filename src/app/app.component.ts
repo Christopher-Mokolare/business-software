@@ -1,0 +1,1 @@
+import {Component,signal} from '@angular/core'; import {RouterLink,RouterOutlet} from '@angular/router'; import {ThemeService} from './theme.service'; @Component({selector:'ms-root',standalone:true,imports:[RouterOutlet,RouterLink],templateUrl:'./app.component.html'}) export class AppComponent{menu=signal(false);constructor(public theme:ThemeService){}}
