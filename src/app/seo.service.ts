@@ -6,7 +6,7 @@ import {filter} from 'rxjs';
 @Injectable({providedIn:'root'})
 export class SeoService{
   private readonly pages:Record<string,{title:string;description:string}>={
-    '/':{title:'Workshape — Make the work flow.',description:'Workshape designs and builds software around the way businesses actually operate — from manual processes to working systems.'},
+    '/':{title:'Workshape — Software built around how real workflows actually work.',description:'Explore practical software concepts and working projects designed to replace manual processes, connect disconnected tools and improve digital experiences.'},
     '/services':{title:'Services — Workshape',description:'Business systems, customer portals, workflow automation, payment integrations, mobile applications and legacy modernisation.'},
     '/work':{title:'Work — Workshape',description:'Selected software projects exploring fintech, marketplaces, payments, transport operations and business workflows.'},
     '/process':{title:'Process — Workshape',description:'A practical software delivery process: understand the business, design the system, build the workflow and operate it reliably.'},
