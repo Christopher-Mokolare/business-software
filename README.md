@@ -49,7 +49,7 @@ npm run build:pages
 
 Pushes to `main` run the GitHub Actions workflow in `.github/workflows/deploy-pages.yml`.
 
-The first deployment requires GitHub Pages to be enabled for the repository with **Settings → Pages → Source: GitHub Actions**.
+GitHub Pages is enabled with **Settings → Pages → Source: GitHub Actions**.
 
 Current project-site URL:
 
@@ -69,6 +69,8 @@ If a custom domain is introduced later, update the canonical URL, sitemap and th
 - [x] Accessibility skip link and navigation labels
 - [x] GitHub Actions CI
 - [x] GitHub Pages deployment workflow
+- [x] GitHub Pages enabled
+- [ ] Verify successful production deployment
 - [ ] Connect a real contact-form delivery endpoint
 - [ ] Add final social preview image
 - [ ] Add custom domain when the business domain is ready
